@@ -44,8 +44,8 @@ var api = {
   logId: 0,
 }
 
-advice = {
-   override: function(invocation){
+var advice = {
+   override: function(invocation) {
        console.log('Hey, I can do something cool before I find a new upvote')
        invocation.proceed();
        console.log('Hey, I can again do something cool, after I have found the upvote')
