@@ -1,0 +1,26 @@
+{
+  "name": "prometheus_steem_project",
+  "version": "1.0.0",
+  "description": "steem api experiments",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Cieri Alberto",
+  "license": "MIT",
+  "dependencies": {
+    "aspectjs": "^2.0.4",
+    "dataformat": "^1.0.0",
+    "express": "^4.16.2",
+    "file-system": "^2.2.2",
+    "steem": "^0.7.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dev-alberto/Steem-Playground.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dev-alberto/Steem-Playground/issues"
+  },
+  "homepage": "https://github.com/dev-alberto/Steem-Playground#readme"
+}
