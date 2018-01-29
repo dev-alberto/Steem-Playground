@@ -41,7 +41,6 @@ var api = {
       }
     });
   },
-  logId: 0,
 }
 
 var advice = {
