@@ -75,9 +75,9 @@ async function start() {
       return
     } else {
         console.log("A random post was found, now voting: "  + JSON.stringify(randomPost))
-        //upvoteRandomPost(PASSWORD, NAME, randomPost['author'], randomPost['permlink'])
-        //const voteResult = await apiInvocations.broadcastVote(PASSWORD, NAME, randomPost, 10000)
-        //console.log(voteResult)
+        upvoteRandomPost(PASSWORD, NAME, randomPost['author'], randomPost['permlink'])
+        const voteResult = await apiInvocations.broadcastVote(PASSWORD, NAME, randomPost, 10000)
+        console.log(voteResult)
         console.log("vote success")
     }
   }
