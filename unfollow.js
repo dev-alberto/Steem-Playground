@@ -61,8 +61,9 @@ async function main() {
 
   const LIMIT = 10;
   const NAME = ''
+  const PASSWORD = ''
 
-  var unf = new Unfollow(NAME, [], '');
+  var unf = new Unfollow(NAME, [], PASSWORD);
 
   const apiListOfFollowing = await steem.api.getFollowingAsync(NAME, '', 'blog', LIMIT);
 
